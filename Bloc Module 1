@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Site</title>
+  </head>
+  <body>
+    <header>This where the logo or top navigation would go!</header>
+    <aside>
+      <p>This is sidebar text!</p>
+      <p>This is sidebar text!</p>
+    </aside>
+    <section>
+      <p>Hello World!</p>
+      <p>This is the main section</p>
+    </section>
+    <footer>This is where any content in the footer would go</footer>
+  </body>
+</html>
