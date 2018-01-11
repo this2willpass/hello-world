@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cats are the best!</title>
+  </head>
+  <!-- Removed the <table> from the body as it made the main section too congested -->
+  <body>
+    <!-- Header created for this page -->
+    <header>
+      <h2>My site is Awesome</h2>
+    </header>
+    <!-- Depending on if the information is actually navigation for the site or navigation for the content in this section would determine whether to use nav or aside. I used nav as sidebar is mentioned and would require css styling to float on the left -->
+    <nav>Sidebar will go here</nav>
+    <!-- Used <main> to identify the main information for this awesome site -->
+    <main>
+      <section>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>
+            Check out this cat:
+            <!-- Added alt to image for alternate information when image is unavailable -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg" alt='Image of weird cat' alt="Image of cat so statuesque, easily mistaken for greek god">
+          </p>
+          <!-- Remove the Breaks after the paragraph -->
+          <h1>Isn't it a great cat?!?</h1>
+      </section>
+    </main>
+  </body>
+</html>
