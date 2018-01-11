@@ -29,31 +29,37 @@
         </thead>
         <tbody>
           <tr>
+	    <td><img src='https://drive.google.com/open?id=1mqJr_lN-NnhmXee4bNftIWgXq_fI6ghf' alt='Image of Salad'></td>
             <td>Salad</td>
             <td>Fresh, Delicious Cobb Salad</td>
             <td>$7.99</td>
           </tr>
           <tr>
+	    <td><img src='https://drive.google.com/open?id=1MVuU2j0YdQRQp-WgefVKfqI9qoOmhzfQ' alt='Burger Image'></td>
             <td>Burger</td>
             <td>1/4 lb grass-fed burger with choice of cheese</td>
             <td>$6.99</td>
           </tr>
           <tr>
+	    <td><img src='https://drive.google.com/open?id=1xEkfMWnz3trJwUKzgmhW0tjp7X4qh1Zl' alt='Chicken Salad Sandwich'></td>
             <td>Chicken Salad Sandwich</td>
             <td>Our world famous chicken salad on a bagel with homemade pickles</td>
             <td>$8.99</td>
           </tr>
           <tr>
+	    <td><img src="https://drive.google.com/open?id=1E2P5VpFkh47WBoQ0RzK-QmU1zyHCDteA" alt='Buffalo Chicken Sandwich image'></td>
             <td>Buffalo Chicken Sandwich</td>
             <td>Spicy fried chicken on a brioche bun</td>
             <td>$10.99</td>
           </tr>
           <tr>
+	    <td><img src='https://drive.google.com/open?id=1DopUSpmcYrAK7MjPoWBxlGbHlsYWLtnv' alt='Image of Fries'>
             <td>Fries</td>
             <td>Hand cut potatoes lightly fried and seasoned</td>
             <td>$1.99</td>
           </tr>
           <tr>
+	    <td><img src='https://drive.google.com/open?id=10t5rWYrmF9W5slMDzZnw0CJggUnMuyEu' alt='Image of soda'></td>
             <td>Soda</td>
             <td>Regular, diet, orange, or root beer</td>
             <td>$1.00</td>
@@ -63,67 +69,71 @@
     </section>
     <section>
       <form action="form.php" method="post">
-	      <fieldset>
+        <fieldset>
           <table width="600">
-        	  <thead>
-            	  <tr>
-            	    <h2>Create Reservation</h2>
-                </tr>
+            <thead>
+              <tr>
+	        <h2>Create Reservation</h2>
+              </tr>
             </thead>
-        	  <tbody>
+              <tbody>
             	<tr>
-            		<td>
-        				<label for="FirstName">First Name</label>
-                    </td>
-                    <td>
-                   	 	<input type="text" id="FirstName">
-        			      </td>
-                    <td>
-        				<label for="Last Name">Last Name</label>
-                    </td>
-                    <td>
-                    	<input type="text" id="LastName">
-                	</td>
+                  <td><label for="FirstName">First Name</label></td>
+                  <td><input type="text" id="FirstName"></td>
+        	  <td><label for="Last Name">Last Name</label></td>	      
+                  <td><input type="text" id="LastName"></td>
+        	</tr>			
+                <tr>   
+                  <td><label for="Email">E-mail</label></td>  
+                  <td><input type="email" id="Email"></td>     	
+                  <td><label for="Telephone">Phone Number</label></td>	
+            	  <td><input type="tel" id="Telephone"></td>
             	</tr>
-            	<tr>
-            		  <td>
-                    	<label for="Email">E-mail</label>
-                  </td>
+            	<tr>	  
+                  <td><label for="time">Reservation Time</label></td>  	
                   <td>
-                		<input type="email" id="Email">
-                  </td>    
-                  <td>
-                    	<label for="Telephone">Phone Number</label>
-                  </td>
-                  <td>
-                    	<input type="tel" id="Telephone">
-                  </td>
+		    <select name="time" id="time">
+                      <option value="time">6:00PM</option>
+                      <option value="time" selected>6:30PM</option>		
+                      <option value="time">7:00PM</option>
+                    </select>
+ 		  </td>	        
                 </tr>
+		<tr>
+		  <td valign="top"><label for="Notes" id="Notes">Notes</label></td>
+                  <td colspan="2"><textarea col="100" row="5"></textarea></td></tr>
+                  <td></td>
+		</tr>
                 <tr>
-                	<td>
-                    	<label for="time">Reservation Time</label>
+                  <td>	
                   </td>
-                	<td>
-                    	<select name="time" id="time">
-  							        <option value="time">6:00PM</option>
-  							        <option value="time" selected>6:30PM</option>
-  							        <option value="time">7:00PM</option>
-						          </select>
-					        </td>
-                </tr>
-                </tr>
-                	<td>
-                  </td>
-                  <td>
-                   		<input type="submit" value="Submit">
-                  </td>
-                </tr>
-        	    </tbody>           
-    	    </table>		     
-	    </fieldset>
-    </form>
-    </section>
-  <footer>This is where any content in the footer would go</footer>
+                  <td><input type="submit" value="Submit"></td>
+                </tr> 		
+              </tbody>    
+            </table>    
+          </fieldset>              
+    	</form>    		     
+      </section>    
+    <footer>This is where any content in the footer would go</footer>
 </body>
-</html>
+</html>    
+  
 
+
+                   	
+                  
+                   
+                    	
+                  
+                
+                
+                	
+                    	
+                  
+                	
+                    	
+  							        
+  							        
+  							        
+						         
+		
