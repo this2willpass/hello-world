@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site Title</title>
+  </head>
+  <body>
+    <header>Header</header>
+    <aside>
+      <p>Sidebar info</p>
+      <p>Sidebar info</p>
+    </aside>
+    <section>
+      <p>Main Section</p>
+      <p>Paragraph</p>
+    </section>
+    <footer>Footer content</footer>
+  </body>
+</html>
